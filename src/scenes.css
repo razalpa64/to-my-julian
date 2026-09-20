@@ -194,17 +194,17 @@
    CH 02 — instagram-ish, symbolic only
    ============================================================ */
 .phone {
-  width: min(255px, 66vw);
+  width: min(240px, 64vw);
   margin-inline: auto;
   border: 1px solid rgba(122,36,52,.22);
-  border-radius: 26px;
+  border-radius: 24px;
   background: #fffdf9;
-  padding: 16px 14px 20px;
+  padding: 18px 16px 20px;
   box-shadow: 0 4px 26px rgba(50,24,32,.07);
 }
-.phone .notch { width: 46px; height: 4px; border-radius: 3px; background: rgba(122,36,52,.16); margin: 0 auto 16px; }
+.phone .notch { width: 42px; height: 4px; border-radius: 3px; background: rgba(122,36,52,.16); margin: 0 auto 16px; }
 .avatar-ring {
-  width: 74px; height: 74px; border-radius: 50%;
+  width: 72px; height: 72px; border-radius: 50%;
   margin: 0 auto 12px;
   padding: 3px;
   background: var(--blush);
@@ -232,10 +232,6 @@
 }
 .follow-btn[data-state='back'] { background: var(--blush); color: var(--wine); border-color: var(--blush); }
 .follow-btn[data-state='friends'] { background: transparent; color: var(--wine); }
-.mini-counts { display: flex; justify-content: center; gap: 22px; margin-top: 14px; }
-.mini-counts div { text-align: center; }
-.mini-counts b { display: block; font-family: var(--serif); font-size: 1.15rem; color: var(--wine); }
-.mini-counts span { font-family: var(--sans); font-size: 9.5px; letter-spacing: .18em; text-transform: uppercase; color: var(--soft); }
 
 /* ============================================================
    CH 03 / 05 — bubbles

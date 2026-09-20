@@ -155,7 +155,7 @@ export function Instagram() {
         </Reveal>
 
         <Reveal delay={200}>
-          <div className="phone" style={{ marginTop: 30 }}>
+          <div className="phone" style={{ marginTop: 26 }}>
             <div className="notch" />
             <div className="avatar-ring">
               <span className="inner" aria-hidden="true">J</span>
@@ -164,11 +164,6 @@ export function Instagram() {
             <button className="follow-btn" data-state={state} type="button" disabled aria-live="polite">
               {labels[state]}
             </button>
-            <div className="mini-counts">
-              <div><b>1</b><span>random app</span></div>
-              <div><b>2</b><span>second person</span></div>
-              <div><b>∞</b><span>apparently</span></div>
-            </div>
           </div>
         </Reveal>
 
