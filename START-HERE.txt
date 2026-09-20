@@ -1,0 +1,45 @@
+TO MY JULIAN
+From Razal, with love.
+
+
+JUST WANT TO SEND IT TO HER?
+----------------------------
+Open:  To-My-Julian.html
+
+That one file IS the whole website. Everything is baked inside it --
+all the illustrations, the fonts, everything. No internet needed.
+
+Double-click it to preview it yourself, then send that single file
+to Julian however you like (WhatsApp, Telegram, email, Drive).
+It works on her phone even with no signal.
+
+
+WANT TO CHANGE THE WORDS FIRST?
+-------------------------------
+1. Open the folder in a terminal and run:
+       npm install
+       npm run dev
+   Then open the link it prints.
+
+2. Edit  src/content.ts  -- the whole story config is in that one file.
+
+   >> secretPS  <<  is still placeholder text I wrote for you.
+                    That's the hidden note at the very end.
+                    You should make that one yours.
+
+3. When you're happy:
+       npm run build
+   ...then rebuild the single file with:
+       python3 tools/bundle.py     (from the parent folder)
+
+
+ADDING YOUR SONG
+----------------
+Drop an mp3 at:  public/audio/our-song.mp3   (that exact name)
+
+The "play our song" button then starts working. It never autoplays --
+Julian taps it herself. With no file there, the button politely
+disables itself and nothing breaks.
+
+
+More detail is in README.md
